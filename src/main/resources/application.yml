@@ -9,3 +9,6 @@ spring:
     url: jdbc:h2:mem:test
     username: sa
     password:
+
+secret:
+  test: ${RINSABBIT_SECRET}
